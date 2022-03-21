@@ -1,0 +1,25 @@
+{
+    "code": 200,
+    "status": "OK",
+    "result": {
+        "id": 1,
+        "name": "google",
+        "url": "https://deepak.devtron.info:32443/orchestrator",
+        "config": {
+            "id": "google",
+            "label": "GoogleDeepak",
+            "type": "oidc",
+            "name": "Google",
+            "config": {
+                "issuer": "https://accounts.google.com",
+                "clientID": "828002113246-cbufo58tnp8cqpql6refk0h7pgn6uj11.apps.googleusercontent.com",
+                "clientSecret": "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",
+                "redirectURI": "https://deepak.devtron.info:32443/orchestrator/api/dex/callback",
+                "hostedDomains": [
+                    "devtron.ai"
+                ]
+            }
+        },
+        "active": true
+    }
+}
